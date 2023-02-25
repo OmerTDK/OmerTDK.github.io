@@ -38,8 +38,8 @@ $(function() {
     anime({
       targets: '.art-preloader .art-preloader-content',
       opacity: [0, 1],
-      delay: 200,
-      duration: 600,
+      delay: 0,
+      duration: 0,
       easing: 'linear',
       complete: function(anim) {
 
@@ -48,8 +48,8 @@ $(function() {
     anime({
       targets: '.art-preloader',
       opacity: [1, 0],
-      delay: 2200,
-      duration: 400,
+      delay: 0,
+      duration: 0,
       easing: 'linear',
       complete: function(anim) {
         $('.art-preloader').css('display', 'none');
@@ -60,8 +60,8 @@ $(function() {
   var bar = new ProgressBar.Line(preloader, {
     strokeWidth: 1.7,
     easing: 'easeInOut',
-    duration: 1400,
-    delay: 750,
+    duration: 0,
+    delay: 0,
     trailWidth: 1.7,
     svgStyle: {
       width: '100%',
@@ -79,13 +79,13 @@ $(function() {
     targets: '.art-counter-frame',
     opacity: [0, 1],
     duration: 800,
-    delay: 2300,
+    delay: 0,
     easing: 'linear',
   });
 
   anime({
     targets: '.art-counter',
-    delay: 1300,
+    delay: 0,
     opacity: [1, 1],
     complete: function(anim) {
       $('.art-counter').each(function() {
@@ -107,7 +107,7 @@ $(function() {
     strokeWidth: 7,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2500,
+    delay: 0,
     trailWidth: 7,
     step: function(state, circle) {
       var value = Math.round(circle.value() * 100);
@@ -125,7 +125,7 @@ $(function() {
     strokeWidth: 7,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2600,
+    delay: 0,
     trailWidth: 7,
     step: function(state, circle) {
       var value = Math.round(circle.value() * 100);
@@ -143,7 +143,7 @@ $(function() {
     strokeWidth: 7,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2700,
+    delay: 0,
     trailWidth: 7,
     step: function(state, circle) {
       var value = Math.round(circle.value() * 100);
@@ -161,7 +161,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2800,
+    delay: 0,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -178,7 +178,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2900,
+    delay: 0,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -195,7 +195,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 3000,
+    delay: 0,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -212,7 +212,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 3100,
+    delay: 0,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -229,7 +229,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 3200,
+    delay: 0,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
